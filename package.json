@@ -1,0 +1,25 @@
+{
+  "name": "rock-garden-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Verbatim static mirror of the Rock Garden test page, trimmed to 40 stones to fit the 8 MiB Git limit. No build step: dist/ is the deliverable.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/verify.mjs",
+    "verify": "node scripts/verify.mjs",
+    "mirror": "node scripts/mirror.mjs",
+    "manifest": "node scripts/manifest.mjs",
+    "typecheck": "tsc -p tsconfig.json",
+    "preview": "node scripts/preview.mjs",
+    "check:browser": "node scripts/browser-check.mjs",
+    "check": "npm run build && npm run typecheck && npm run check:browser"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "playwright-core": "^1.55.0",
+    "typescript": "^5.9.0"
+  }
+}

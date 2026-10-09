@@ -1,0 +1,876 @@
+{
+  "url": "http://127.0.0.1:38345/preview/",
+  "executablePath": "/usr/bin/google-chrome",
+  "viewports": {
+    "mobile-320": {
+      "title": "Rock Garden",
+      "mode": "mode: draft (published)",
+      "count": "80 stones",
+      "bar": "120",
+      "tests": [
+        {
+          "name": "same-origin json",
+          "status": "ok",
+          "text": "ok · 80 items"
+        },
+        {
+          "name": "font loaded",
+          "status": "ok",
+          "text": "ok"
+        },
+        {
+          "name": "chain read (eth_call)",
+          "status": "ok",
+          "text": "ok · Wrapped Ethe"
+        },
+        {
+          "name": "chain read (batch)",
+          "status": "ok",
+          "text": "ok · block 26153031"
+        },
+        {
+          "name": "logs (tenderly)",
+          "status": "ok",
+          "text": "ok · 211 deposits in 16 old blocks"
+        },
+        {
+          "name": "second rpc (drpc)",
+          "status": "ok",
+          "text": "ok"
+        },
+        {
+          "name": "local storage",
+          "status": "ok",
+          "text": "ok"
+        },
+        {
+          "name": "iframe",
+          "status": "ok",
+          "text": "ok · loaded"
+        },
+        {
+          "name": "wallet api",
+          "status": "ok",
+          "text": "ok · none injected · 0 via 6963 · deep links ready"
+        },
+        {
+          "name": "url override gated",
+          "status": "ok",
+          "text": "ok · published ignores ?mode"
+        },
+        {
+          "name": "inline script ran",
+          "status": "ok",
+          "text": "ok"
+        }
+      ],
+      "images": [
+        {
+          "src": "img/stone-01.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-02.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-03.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-04.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-05.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-06.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-07.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-08.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-09.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-10.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-11.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-12.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-13.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-14.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-15.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-16.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-17.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-18.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-19.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-20.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-21.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-22.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-23.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-24.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-25.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-26.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-27.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-28.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-29.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-30.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-31.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-32.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-33.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-34.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-35.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-36.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-37.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-38.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-39.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-40.png",
+          "loaded": true
+        }
+      ],
+      "figures": 40,
+      "overflowX": false,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "gridColumns": 1,
+      "fontA": true,
+      "lang": "en",
+      "h1": 1,
+      "buttonBox": {
+        "w": 163,
+        "h": 42
+      },
+      "screenshot": "docs/validation/screenshots/mobile-320.jpg",
+      "screenshotGrid": "docs/validation/screenshots/mobile-320-grid.jpg"
+    },
+    "tablet-768": {
+      "title": "Rock Garden",
+      "mode": "mode: draft (published)",
+      "count": "80 stones",
+      "bar": "120",
+      "tests": [
+        {
+          "name": "same-origin json",
+          "status": "ok",
+          "text": "ok · 80 items"
+        },
+        {
+          "name": "font loaded",
+          "status": "ok",
+          "text": "ok"
+        },
+        {
+          "name": "chain read (eth_call)",
+          "status": "ok",
+          "text": "ok · Wrapped Ethe"
+        },
+        {
+          "name": "chain read (batch)",
+          "status": "ok",
+          "text": "ok · block 26153031"
+        },
+        {
+          "name": "logs (tenderly)",
+          "status": "ok",
+          "text": "ok · 211 deposits in 16 old blocks"
+        },
+        {
+          "name": "second rpc (drpc)",
+          "status": "ok",
+          "text": "ok"
+        },
+        {
+          "name": "local storage",
+          "status": "ok",
+          "text": "ok"
+        },
+        {
+          "name": "iframe",
+          "status": "ok",
+          "text": "ok · loaded"
+        },
+        {
+          "name": "wallet api",
+          "status": "ok",
+          "text": "ok · none injected · 0 via 6963 · deep links ready"
+        },
+        {
+          "name": "url override gated",
+          "status": "ok",
+          "text": "ok · published ignores ?mode"
+        },
+        {
+          "name": "inline script ran",
+          "status": "ok",
+          "text": "ok"
+        }
+      ],
+      "images": [
+        {
+          "src": "img/stone-01.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-02.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-03.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-04.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-05.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-06.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-07.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-08.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-09.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-10.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-11.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-12.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-13.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-14.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-15.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-16.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-17.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-18.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-19.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-20.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-21.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-22.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-23.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-24.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-25.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-26.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-27.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-28.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-29.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-30.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-31.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-32.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-33.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-34.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-35.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-36.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-37.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-38.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-39.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-40.png",
+          "loaded": true
+        }
+      ],
+      "figures": 40,
+      "overflowX": false,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "gridColumns": 4,
+      "fontA": true,
+      "lang": "en",
+      "h1": 1,
+      "buttonBox": {
+        "w": 163,
+        "h": 42
+      },
+      "screenshot": "docs/validation/screenshots/tablet-768.jpg"
+    },
+    "desktop-1280": {
+      "title": "Rock Garden",
+      "mode": "mode: draft (published)",
+      "count": "80 stones",
+      "bar": "120",
+      "tests": [
+        {
+          "name": "same-origin json",
+          "status": "ok",
+          "text": "ok · 80 items"
+        },
+        {
+          "name": "font loaded",
+          "status": "ok",
+          "text": "ok"
+        },
+        {
+          "name": "chain read (eth_call)",
+          "status": "ok",
+          "text": "ok · Wrapped Ethe"
+        },
+        {
+          "name": "chain read (batch)",
+          "status": "ok",
+          "text": "ok · block 26153031"
+        },
+        {
+          "name": "logs (tenderly)",
+          "status": "ok",
+          "text": "ok · 211 deposits in 16 old blocks"
+        },
+        {
+          "name": "second rpc (drpc)",
+          "status": "ok",
+          "text": "ok"
+        },
+        {
+          "name": "local storage",
+          "status": "ok",
+          "text": "ok"
+        },
+        {
+          "name": "iframe",
+          "status": "ok",
+          "text": "ok · loaded"
+        },
+        {
+          "name": "wallet api",
+          "status": "ok",
+          "text": "ok · none injected · 0 via 6963 · deep links ready"
+        },
+        {
+          "name": "url override gated",
+          "status": "ok",
+          "text": "ok · published ignores ?mode"
+        },
+        {
+          "name": "inline script ran",
+          "status": "ok",
+          "text": "ok"
+        }
+      ],
+      "images": [
+        {
+          "src": "img/stone-01.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-02.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-03.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-04.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-05.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-06.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-07.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-08.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-09.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-10.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-11.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-12.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-13.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-14.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-15.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-16.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-17.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-18.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-19.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-20.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-21.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-22.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-23.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-24.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-25.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-26.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-27.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-28.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-29.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-30.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-31.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-32.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-33.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-34.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-35.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-36.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-37.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-38.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-39.png",
+          "loaded": true
+        },
+        {
+          "src": "img/stone-40.png",
+          "loaded": true
+        }
+      ],
+      "figures": 40,
+      "overflowX": false,
+      "scrollWidth": 1280,
+      "clientWidth": 1280,
+      "gridColumns": 7,
+      "fontA": true,
+      "lang": "en",
+      "h1": 1,
+      "buttonBox": {
+        "w": 163,
+        "h": 42
+      },
+      "screenshot": "docs/validation/screenshots/desktop-1280.jpg"
+    }
+  },
+  "interactions": {
+    "removedImageStatus": 404,
+    "urlOverride": {
+      "mode": "mode: draft (published)",
+      "gate": "ok · published ignores ?mode"
+    },
+    "tabOrder": [
+      "button#connect",
+      "summary",
+      "iframe#fr",
+      "body"
+    ],
+    "summaryFocusRing": {
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)"
+    },
+    "buttonFocusRing": {
+      "outlineStyle": "auto",
+      "outlineWidth": "1px",
+      "outlineColor": "rgb(16, 16, 16)"
+    },
+    "detailsOpensWithEnter": true,
+    "connectWallet": [
+      {
+        "text": "MetaMask",
+        "href": "https://metamask.app.link/dapp/127.0.0.1:38345/preview/"
+      },
+      {
+        "text": "Coinbase",
+        "href": "https://go.cb-w.com/dapp?cb_url=http%3A%2F%2F127.0.0.1%3A38345%2Fpreview%2F"
+      },
+      {
+        "text": "Rainbow",
+        "href": "https://link.rainbow.me/dapp/127.0.0.1:38345"
+      }
+    ],
+    "iframe": "ok · loaded",
+    "externalChainReads": [
+      {
+        "id": "call",
+        "text": "ok · Wrapped Ethe"
+      },
+      {
+        "id": "batch",
+        "text": "ok · block 26153031"
+      },
+      {
+        "id": "logs",
+        "text": "ok · 211 deposits in 16 old blocks"
+      },
+      {
+        "id": "rpc2",
+        "text": "ok"
+      }
+    ]
+  },
+  "contrast": [
+    {
+      "label": "body text on page",
+      "fg": "rgb(221, 221, 221)",
+      "opacity": "1",
+      "bg": "rgb(17, 17, 17)",
+      "fontSize": "32px",
+      "ratio": 13.9
+    },
+    {
+      "label": "figcaption (opacity .6) on page",
+      "fg": "rgb(221, 221, 221)",
+      "opacity": "0.6",
+      "bg": "rgb(17, 17, 17)",
+      "fontSize": "11px",
+      "ratio": 5.57
+    },
+    {
+      "label": "test ok status",
+      "fg": "rgb(119, 204, 102)",
+      "opacity": "1",
+      "bg": "rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "ratio": 9.54
+    },
+    {
+      "label": "test waiting status (.wait)",
+      "fg": "rgb(170, 170, 136)",
+      "opacity": "1",
+      "bg": "rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "ratio": 7.93
+    },
+    {
+      "label": "test failed status (.bad)",
+      "fg": "rgb(238, 102, 102)",
+      "opacity": "1",
+      "bg": "rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "ratio": 6.05
+    },
+    {
+      "label": "button label on button",
+      "fg": "rgb(238, 238, 238)",
+      "opacity": "1",
+      "bg": "rgb(51, 51, 51)",
+      "fontSize": "16px",
+      "ratio": 10.89
+    },
+    {
+      "label": "summary on page",
+      "fg": "rgb(221, 221, 221)",
+      "opacity": "1",
+      "bg": "rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "ratio": 13.9
+    },
+    {
+      "label": "wallet deep link (browser default link color) on page",
+      "fg": "rgb(0, 0, 238)",
+      "opacity": "1",
+      "bg": "rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "ratio": 2.01
+    },
+    {
+      "label": "details body text on page",
+      "fg": "rgb(221, 221, 221)",
+      "opacity": "1",
+      "bg": "rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "ratio": 13.9
+    }
+  ],
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://127.0.0.1:38345/favicon.ico"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://127.0.0.1:38345/preview/img/stone-41.png"
+    }
+  ],
+  "failedRequests": [
+    "http://127.0.0.1:38345/preview/img/stone-41.png HTTP 404"
+  ],
+  "knownFindings": [
+    {
+      "finding": "contrast wallet deep link (browser default link color) on page: 2.01:1 at 16px (needs 4.5:1)",
+      "reason": "index.html:98 uses browser-default link colour for the MetaMask/Coinbase/Rainbow deep links; the verbatim-mirror brief forbids adding a style rule. Reported to the owner in docs/validation/validation.md."
+    }
+  ],
+  "failures": [],
+  "result": "PASS",
+  "checkedAt": "2026-10-09T06:23:13.611Z"
+}

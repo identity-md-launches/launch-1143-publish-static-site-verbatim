@@ -1,0 +1,15 @@
+{
+  "label": "rock-garden-test",
+  "export": "dist",
+  "entry": "index.html",
+  "manifest": "dist/MANIFEST-PUBLISHED.txt",
+  "source": "https://7130de0a-c74f-4dc3-9a8a-79db37963f97-00-1lk87v2ravyz1.reed.replit.dev/mirror-test/",
+  "sourceManifest": "dist/MANIFEST.json",
+  "changesFromSource": [
+    "img/stone-41.png through img/stone-80.png are not published",
+    "index.html: the 40 <figure> lines for those images are removed",
+    "index.html: `preview: true` on the `const CONFIG =` line is now `preview: false`",
+    "img/index.json: the 40 removed names are dropped from the array"
+  ],
+  "build": "none; dist/ is served as committed"
+}

@@ -1,0 +1,405 @@
+{
+ "count": 80,
+ "items": [
+  {
+   "id": 1,
+   "name": "Stone 1",
+   "weight": 607
+  },
+  {
+   "id": 2,
+   "name": "Stone 2",
+   "weight": 49
+  },
+  {
+   "id": 3,
+   "name": "Stone 3",
+   "weight": 47
+  },
+  {
+   "id": 4,
+   "name": "Stone 4",
+   "weight": 7
+  },
+  {
+   "id": 5,
+   "name": "Stone 5",
+   "weight": 681
+  },
+  {
+   "id": 6,
+   "name": "Stone 6",
+   "weight": 541
+  },
+  {
+   "id": 7,
+   "name": "Stone 7",
+   "weight": 591
+  },
+  {
+   "id": 8,
+   "name": "Stone 8",
+   "weight": 548
+  },
+  {
+   "id": 9,
+   "name": "Stone 9",
+   "weight": 470
+  },
+  {
+   "id": 10,
+   "name": "Stone 10",
+   "weight": 545
+  },
+  {
+   "id": 11,
+   "name": "Stone 11",
+   "weight": 993
+  },
+  {
+   "id": 12,
+   "name": "Stone 12",
+   "weight": 911
+  },
+  {
+   "id": 13,
+   "name": "Stone 13",
+   "weight": 320
+  },
+  {
+   "id": 14,
+   "name": "Stone 14",
+   "weight": 997
+  },
+  {
+   "id": 15,
+   "name": "Stone 15",
+   "weight": 423
+  },
+  {
+   "id": 16,
+   "name": "Stone 16",
+   "weight": 542
+  },
+  {
+   "id": 17,
+   "name": "Stone 17",
+   "weight": 565
+  },
+  {
+   "id": 18,
+   "name": "Stone 18",
+   "weight": 580
+  },
+  {
+   "id": 19,
+   "name": "Stone 19",
+   "weight": 635
+  },
+  {
+   "id": 20,
+   "name": "Stone 20",
+   "weight": 132
+  },
+  {
+   "id": 21,
+   "name": "Stone 21",
+   "weight": 841
+  },
+  {
+   "id": 22,
+   "name": "Stone 22",
+   "weight": 511
+  },
+  {
+   "id": 23,
+   "name": "Stone 23",
+   "weight": 14
+  },
+  {
+   "id": 24,
+   "name": "Stone 24",
+   "weight": 988
+  },
+  {
+   "id": 25,
+   "name": "Stone 25",
+   "weight": 55
+  },
+  {
+   "id": 26,
+   "name": "Stone 26",
+   "weight": 524
+  },
+  {
+   "id": 27,
+   "name": "Stone 27",
+   "weight": 936
+  },
+  {
+   "id": 28,
+   "name": "Stone 28",
+   "weight": 226
+  },
+  {
+   "id": 29,
+   "name": "Stone 29",
+   "weight": 94
+  },
+  {
+   "id": 30,
+   "name": "Stone 30",
+   "weight": 532
+  },
+  {
+   "id": 31,
+   "name": "Stone 31",
+   "weight": 580
+  },
+  {
+   "id": 32,
+   "name": "Stone 32",
+   "weight": 472
+  },
+  {
+   "id": 33,
+   "name": "Stone 33",
+   "weight": 575
+  },
+  {
+   "id": 34,
+   "name": "Stone 34",
+   "weight": 37
+  },
+  {
+   "id": 35,
+   "name": "Stone 35",
+   "weight": 806
+  },
+  {
+   "id": 36,
+   "name": "Stone 36",
+   "weight": 764
+  },
+  {
+   "id": 37,
+   "name": "Stone 37",
+   "weight": 960
+  },
+  {
+   "id": 38,
+   "name": "Stone 38",
+   "weight": 888
+  },
+  {
+   "id": 39,
+   "name": "Stone 39",
+   "weight": 515
+  },
+  {
+   "id": 40,
+   "name": "Stone 40",
+   "weight": 967
+  },
+  {
+   "id": 41,
+   "name": "Stone 41",
+   "weight": 589
+  },
+  {
+   "id": 42,
+   "name": "Stone 42",
+   "weight": 993
+  },
+  {
+   "id": 43,
+   "name": "Stone 43",
+   "weight": 247
+  },
+  {
+   "id": 44,
+   "name": "Stone 44",
+   "weight": 314
+  },
+  {
+   "id": 45,
+   "name": "Stone 45",
+   "weight": 598
+  },
+  {
+   "id": 46,
+   "name": "Stone 46",
+   "weight": 341
+  },
+  {
+   "id": 47,
+   "name": "Stone 47",
+   "weight": 791
+  },
+  {
+   "id": 48,
+   "name": "Stone 48",
+   "weight": 846
+  },
+  {
+   "id": 49,
+   "name": "Stone 49",
+   "weight": 430
+  },
+  {
+   "id": 50,
+   "name": "Stone 50",
+   "weight": 848
+  },
+  {
+   "id": 51,
+   "name": "Stone 51",
+   "weight": 521
+  },
+  {
+   "id": 52,
+   "name": "Stone 52",
+   "weight": 312
+  },
+  {
+   "id": 53,
+   "name": "Stone 53",
+   "weight": 779
+  },
+  {
+   "id": 54,
+   "name": "Stone 54",
+   "weight": 52
+  },
+  {
+   "id": 55,
+   "name": "Stone 55",
+   "weight": 279
+  },
+  {
+   "id": 56,
+   "name": "Stone 56",
+   "weight": 737
+  },
+  {
+   "id": 57,
+   "name": "Stone 57",
+   "weight": 901
+  },
+  {
+   "id": 58,
+   "name": "Stone 58",
+   "weight": 74
+  },
+  {
+   "id": 59,
+   "name": "Stone 59",
+   "weight": 119
+  },
+  {
+   "id": 60,
+   "name": "Stone 60",
+   "weight": 599
+  },
+  {
+   "id": 61,
+   "name": "Stone 61",
+   "weight": 262
+  },
+  {
+   "id": 62,
+   "name": "Stone 62",
+   "weight": 177
+  },
+  {
+   "id": 63,
+   "name": "Stone 63",
+   "weight": 711
+  },
+  {
+   "id": 64,
+   "name": "Stone 64",
+   "weight": 114
+  },
+  {
+   "id": 65,
+   "name": "Stone 65",
+   "weight": 551
+  },
+  {
+   "id": 66,
+   "name": "Stone 66",
+   "weight": 450
+  },
+  {
+   "id": 67,
+   "name": "Stone 67",
+   "weight": 403
+  },
+  {
+   "id": 68,
+   "name": "Stone 68",
+   "weight": 235
+  },
+  {
+   "id": 69,
+   "name": "Stone 69",
+   "weight": 839
+  },
+  {
+   "id": 70,
+   "name": "Stone 70",
+   "weight": 883
+  },
+  {
+   "id": 71,
+   "name": "Stone 71",
+   "weight": 683
+  },
+  {
+   "id": 72,
+   "name": "Stone 72",
+   "weight": 776
+  },
+  {
+   "id": 73,
+   "name": "Stone 73",
+   "weight": 673
+  },
+  {
+   "id": 74,
+   "name": "Stone 74",
+   "weight": 792
+  },
+  {
+   "id": 75,
+   "name": "Stone 75",
+   "weight": 242
+  },
+  {
+   "id": 76,
+   "name": "Stone 76",
+   "weight": 979
+  },
+  {
+   "id": 77,
+   "name": "Stone 77",
+   "weight": 9
+  },
+  {
+   "id": 78,
+   "name": "Stone 78",
+   "weight": 550
+  },
+  {
+   "id": 79,
+   "name": "Stone 79",
+   "weight": 88
+  },
+  {
+   "id": 80,
+   "name": "Stone 80",
+   "weight": 14
+  }
+ ]
+}

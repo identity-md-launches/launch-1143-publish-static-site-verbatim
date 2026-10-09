@@ -1,0 +1,99 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rock Garden</title>
+<meta name="description" content="eighty stones, one page">
+<meta property="og:title" content="Rock Garden"><meta property="og:description" content="eighty stones, one page"><meta property="og:image" content="img/stone-01.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Rock Garden"><meta name="twitter:image" content="img/stone-01.png">
+<style>
+@font-face{font-family:A;src:url(fonts/alpha.woff2)}
+body{background:#111;color:#ddd;font-family:A,ui-monospace,monospace;margin:0;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}figure{margin:0}img{width:100%;display:block;border-radius:6px}figcaption{font-size:11px;opacity:.6}
+#tests li{margin:4px 0}#tests b{display:inline-block;min-width:160px}.ok{color:#7c6}.bad{color:#e66}.wait{color:#aa8}
+button{background:#333;color:#eee;border:1px solid #555;border-radius:6px;padding:8px 12px;font:inherit}
+iframe{width:100%;height:120px;border:1px solid #444;border-radius:6px;background:#000}
+details{margin:12px 0}summary{cursor:pointer}
+</style></head><body>
+<h1>Rock Garden</h1>
+<p id="mode">mode: …</p>
+<p id="count">counting…</p>
+<svg width="120" height="24" viewBox="0 0 120 24" aria-hidden="true"><rect x="0" y="4" width="120" height="16" rx="8" fill="#333"/><rect id="bar" x="0" y="4" width="0" height="16" rx="8" fill="#7c6"/></svg>
+<ul id="tests">
+<li><b>same-origin json</b> <span class="wait" id="t-json">waiting</span></li>
+<li><b>font loaded</b> <span class="wait" id="t-font">waiting</span></li>
+<li><b>chain read (eth_call)</b> <span class="wait" id="t-call">waiting</span></li>
+<li><b>chain read (batch)</b> <span class="wait" id="t-batch">waiting</span></li>
+<li><b>logs (tenderly)</b> <span class="wait" id="t-logs">waiting</span></li>
+<li><b>second rpc (drpc)</b> <span class="wait" id="t-rpc2">waiting</span></li>
+<li><b>local storage</b> <span class="wait" id="t-ls">waiting</span></li>
+<li><b>iframe</b> <span class="wait" id="t-iframe">waiting</span></li>
+<li><b>wallet api</b> <span class="wait" id="t-wallet">waiting</span></li>
+<li><b>url override gated</b> <span class="wait" id="t-gate">waiting</span></li>
+<li><b>inline script ran</b> <span class="ok" id="t-inline">ok</span></li>
+</ul>
+<p><button id="connect">Connect wallet</button> <span id="wout"></span></p>
+<details><summary>What this page is</summary><p>A throwaway test. It only checks that a static page with a live chain read, a wallet button and an iframe survives being published somewhere else, byte for byte.</p></details>
+<iframe id="fr" src="https://example.com/" title="frame test" loading="lazy"></iframe>
+<div class="grid">
+<figure><img src="img/stone-01.png" alt="stone-01.png" loading="lazy"><figcaption>stone-01.png</figcaption></figure>
+<figure><img src="img/stone-02.png" alt="stone-02.png" loading="lazy"><figcaption>stone-02.png</figcaption></figure>
+<figure><img src="img/stone-03.png" alt="stone-03.png" loading="lazy"><figcaption>stone-03.png</figcaption></figure>
+<figure><img src="img/stone-04.png" alt="stone-04.png" loading="lazy"><figcaption>stone-04.png</figcaption></figure>
+<figure><img src="img/stone-05.png" alt="stone-05.png" loading="lazy"><figcaption>stone-05.png</figcaption></figure>
+<figure><img src="img/stone-06.png" alt="stone-06.png" loading="lazy"><figcaption>stone-06.png</figcaption></figure>
+<figure><img src="img/stone-07.png" alt="stone-07.png" loading="lazy"><figcaption>stone-07.png</figcaption></figure>
+<figure><img src="img/stone-08.png" alt="stone-08.png" loading="lazy"><figcaption>stone-08.png</figcaption></figure>
+<figure><img src="img/stone-09.png" alt="stone-09.png" loading="lazy"><figcaption>stone-09.png</figcaption></figure>
+<figure><img src="img/stone-10.png" alt="stone-10.png" loading="lazy"><figcaption>stone-10.png</figcaption></figure>
+<figure><img src="img/stone-11.png" alt="stone-11.png" loading="lazy"><figcaption>stone-11.png</figcaption></figure>
+<figure><img src="img/stone-12.png" alt="stone-12.png" loading="lazy"><figcaption>stone-12.png</figcaption></figure>
+<figure><img src="img/stone-13.png" alt="stone-13.png" loading="lazy"><figcaption>stone-13.png</figcaption></figure>
+<figure><img src="img/stone-14.png" alt="stone-14.png" loading="lazy"><figcaption>stone-14.png</figcaption></figure>
+<figure><img src="img/stone-15.png" alt="stone-15.png" loading="lazy"><figcaption>stone-15.png</figcaption></figure>
+<figure><img src="img/stone-16.png" alt="stone-16.png" loading="lazy"><figcaption>stone-16.png</figcaption></figure>
+<figure><img src="img/stone-17.png" alt="stone-17.png" loading="lazy"><figcaption>stone-17.png</figcaption></figure>
+<figure><img src="img/stone-18.png" alt="stone-18.png" loading="lazy"><figcaption>stone-18.png</figcaption></figure>
+<figure><img src="img/stone-19.png" alt="stone-19.png" loading="lazy"><figcaption>stone-19.png</figcaption></figure>
+<figure><img src="img/stone-20.png" alt="stone-20.png" loading="lazy"><figcaption>stone-20.png</figcaption></figure>
+<figure><img src="img/stone-21.png" alt="stone-21.png" loading="lazy"><figcaption>stone-21.png</figcaption></figure>
+<figure><img src="img/stone-22.png" alt="stone-22.png" loading="lazy"><figcaption>stone-22.png</figcaption></figure>
+<figure><img src="img/stone-23.png" alt="stone-23.png" loading="lazy"><figcaption>stone-23.png</figcaption></figure>
+<figure><img src="img/stone-24.png" alt="stone-24.png" loading="lazy"><figcaption>stone-24.png</figcaption></figure>
+<figure><img src="img/stone-25.png" alt="stone-25.png" loading="lazy"><figcaption>stone-25.png</figcaption></figure>
+<figure><img src="img/stone-26.png" alt="stone-26.png" loading="lazy"><figcaption>stone-26.png</figcaption></figure>
+<figure><img src="img/stone-27.png" alt="stone-27.png" loading="lazy"><figcaption>stone-27.png</figcaption></figure>
+<figure><img src="img/stone-28.png" alt="stone-28.png" loading="lazy"><figcaption>stone-28.png</figcaption></figure>
+<figure><img src="img/stone-29.png" alt="stone-29.png" loading="lazy"><figcaption>stone-29.png</figcaption></figure>
+<figure><img src="img/stone-30.png" alt="stone-30.png" loading="lazy"><figcaption>stone-30.png</figcaption></figure>
+<figure><img src="img/stone-31.png" alt="stone-31.png" loading="lazy"><figcaption>stone-31.png</figcaption></figure>
+<figure><img src="img/stone-32.png" alt="stone-32.png" loading="lazy"><figcaption>stone-32.png</figcaption></figure>
+<figure><img src="img/stone-33.png" alt="stone-33.png" loading="lazy"><figcaption>stone-33.png</figcaption></figure>
+<figure><img src="img/stone-34.png" alt="stone-34.png" loading="lazy"><figcaption>stone-34.png</figcaption></figure>
+<figure><img src="img/stone-35.png" alt="stone-35.png" loading="lazy"><figcaption>stone-35.png</figcaption></figure>
+<figure><img src="img/stone-36.png" alt="stone-36.png" loading="lazy"><figcaption>stone-36.png</figcaption></figure>
+<figure><img src="img/stone-37.png" alt="stone-37.png" loading="lazy"><figcaption>stone-37.png</figcaption></figure>
+<figure><img src="img/stone-38.png" alt="stone-38.png" loading="lazy"><figcaption>stone-38.png</figcaption></figure>
+<figure><img src="img/stone-39.png" alt="stone-39.png" loading="lazy"><figcaption>stone-39.png</figcaption></figure>
+<figure><img src="img/stone-40.png" alt="stone-40.png" loading="lazy"><figcaption>stone-40.png</figcaption></figure>
+</div>
+<script>
+const CONFIG = { mode: "draft", preview: false }
+const $ = s => document.querySelector(s)
+const set = (id, ok, note) => { const el = $("#t-" + id); el.className = ok ? "ok" : "bad"; el.textContent = (ok ? "ok" : "FAIL") + (note ? " · " + note : "") }
+const q = new URLSearchParams(location.search)
+const MODE = CONFIG.preview && q.get("mode") ? q.get("mode") : CONFIG.mode
+$("#mode").textContent = "mode: " + MODE + (CONFIG.preview ? " (preview on)" : " (published)")
+set("gate", CONFIG.preview ? MODE === (q.get("mode") || CONFIG.mode) : MODE === CONFIG.mode, CONFIG.preview ? "preview honours ?mode" : "published ignores ?mode")
+fetch("data.json").then(r => r.json()).then(d => { $("#count").textContent = d.count + " stones"; $("#bar").setAttribute("width", String(120 * Math.min(1, d.count / 80))); set("json", d.count === 80, d.count + " items") }).catch(e => set("json", false, String(e).slice(0, 60)))
+document.fonts.load("12px A").then(f => set("font", f.length > 0)).catch(e => set("font", false, String(e).slice(0, 60)))
+const RPCS = ["https://ethereum-rpc.publicnode.com", "https://eth.drpc.org", "https://1rpc.io/eth"]
+const rpc = (url, method, params, id = 1) => fetch(url, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ jsonrpc: "2.0", id, method, params }) }).then(r => r.json())
+const WETH = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+rpc(RPCS[0], "eth_call", [{ to: WETH, data: "0x06fdde03" }, "latest"]).then(r => { const hex = r.result || ""; const name = hex.length > 130 ? decodeURIComponent(hex.slice(2 + 128, 2 + 128 + 24).replace(/(..)/g, "%$1")) : ""; set("call", name.startsWith("Wrapped"), name || JSON.stringify(r).slice(0, 60)) }).catch(e => set("call", false, String(e).slice(0, 60)))
+fetch(RPCS[0], { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify([{ jsonrpc: "2.0", id: 1, method: "eth_blockNumber", params: [] }, { jsonrpc: "2.0", id: 2, method: "eth_chainId", params: [] }]) }).then(r => r.json()).then(a => { const ok = Array.isArray(a) && a.length === 2 && a.some(x => x.result === "0x1"); set("batch", ok, ok ? "block " + parseInt(a.find(x => x.id === 1).result, 16) : JSON.stringify(a).slice(0, 60)) }).catch(e => set("batch", false, String(e).slice(0, 60)))
+rpc("https://gateway.tenderly.co/public/mainnet", "eth_getLogs", [{ address: WETH, fromBlock: "0x1312D00", toBlock: "0x1312D10", topics: ["0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c"] }]).then(r => set("logs", Array.isArray(r.result), Array.isArray(r.result) ? r.result.length + " deposits in 16 old blocks" : JSON.stringify(r).slice(0, 60))).catch(e => set("logs", false, String(e).slice(0, 60)))
+rpc(RPCS[1], "eth_chainId", []).then(r => set("rpc2", r.result === "0x1")).catch(e => set("rpc2", false, String(e).slice(0, 60)))
+try { localStorage.setItem("rg", "1"); set("ls", localStorage.getItem("rg") === "1") } catch (e) { set("ls", false, String(e).slice(0, 60)) }
+$("#fr").addEventListener("load", () => set("iframe", true, "loaded")); setTimeout(() => { if ($("#t-iframe").textContent === "waiting") set("iframe", false, "no load event in 15 s") }, 15000)
+const providers = []; window.addEventListener("eip6963:announceProvider", e => providers.push(e.detail)); window.dispatchEvent(new Event("eip6963:requestProvider"))
+setTimeout(() => set("wallet", true, (window.ethereum ? "injected" : "none injected") + " · " + providers.length + " via 6963 · deep links ready"), 800)
+$("#connect").onclick = async () => { const p = providers[0]?.provider || window.ethereum; if (!p) { $("#wout").innerHTML = '<a href="https://metamask.app.link/dapp/' + location.host + location.pathname + '">MetaMask</a> · <a href="https://go.cb-w.com/dapp?cb_url=' + encodeURIComponent(location.href) + '">Coinbase</a> · <a href="https://link.rainbow.me/dapp/' + location.host + '">Rainbow</a>'; return } try { const a = await p.request({ method: "eth_requestAccounts" }); $("#wout").textContent = a[0] } catch (e) { $("#wout").textContent = "declined" } }
+</script></body></html>
